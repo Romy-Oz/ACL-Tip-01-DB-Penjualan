@@ -35,7 +35,7 @@ CREATE TABLE `barang` (
   `HargaBarang` int NOT NULL,
   `JumlahBarang` int NOT NULL,
   `KodeBarang` varchar(6) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `barang`
@@ -95,7 +95,7 @@ CREATE TABLE `jualdetail` (
   `KuantitasJual` int NOT NULL,
   `HargaJual` int NOT NULL,
   `JualHId_FK` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `jualdetail`
@@ -207,7 +207,7 @@ CREATE TABLE `jualh` (
   `JualHid` int NOT NULL,
   `Pelanggan_Id_FK` int NOT NULL,
   `Tanggal` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `jualh`
@@ -268,7 +268,7 @@ CREATE TABLE `pelanggan` (
   `PelangganKode` varchar(6) NOT NULL,
   `Pelanggan_Email` varchar(255) DEFAULT NULL,
   `Pelanggan_City` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `pelanggan`
